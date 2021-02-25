@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #035B3D;
+    display: flex;
+}
+
+.container {
+    margin: 0 auto;
+    background: #FEF9F3;
+    width: 75%;
+}
+
+.containerSecond {
+    background: #035B3D
+}
+
+.coffeeTop {
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.greenTopRight {
+    width: 25%;
+    background-image: url("img/starbacksTop.png");
+    margin: 0 auto;
+}
+
+.greenTopRight img {
+    z-index: -1;
+    width: 200px;
+    height: 50px;
+}
+
+.starbucksLogoImg {
+    width: 204px;
+    height: 46px;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 35px;
+    margin-bottom: 40px;
+    padding-left: 65px;
+    padding-right: 65px;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-right: 62px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu li a {
+    color: #1E3932;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+
+.menu li a:hover {
+    color: #D2A048;
+}
+
+.cart {
+    margin-left: 65px;
+}
+
+.bigTitleOne {
+    font-size: 75px;
+    margin: 0;
+    font-weight: 800;
+    color: #D2A048;
+    line-height: 25px;
+}
+
+.bigTitleTwo {
+    font-size: 75px;
+    margin: 0;
+    font-weight: 800;
+    color: #1E3932;
+    line-height: 90px;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 17px;
+    border: 1.5px solid #1E3932;
+    padding: 7px 25px;
+    transition: all 0.5s ease;
+    color: #1E3932;
+}
+
+.btn:hover {
+    background: #1E3932;
+    color: #FEF9F3;
+}
+
+.offer {
+    width: 500px;
+    margin-top: 180px;
+}
+
+.header-wrapper {
+    display: flex;
+    padding-left: 65px;
+    margin-bottom: 165px;
+}
+
+.header-wrapper img {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    margin-left: 52%;
+}
+
+.about {
+    font-size: 27px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-weight: 300;
+    color: #1E3932;
+}
+
+.aboutWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secondImgBlock {
+    width: 49%;
+}
+
+.aboutText {
+    width: 51%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("img/starbacksCircle.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.aboutSectionText {
+    font-size: 21px;
+    width: 380px;
+    margin: 0;
+    color: white;
+}
+
+.legendarySecond {
+    font-size: 70px;
+    margin: 0;
+    font-weight: 800;
+    color: #FEF9F3;
+    line-height: 20px;
+}
+
+.coffeeSecond {
+    font-size: 70px;
+    margin: 0;
+    font-weight: 800;
+    color: #D2A048;
+    line-height: 110px;
+}
+
+.containerThird {
+    padding-left: 65px;
+    padding-right: 65px;
+    background: #035B3D;
+    background-image: url("img/starbacksThirdSection.png");
+    background-repeat: no-repeat;
+}
+
+.itemsWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+}
+.item:hover {
+    transform: scale(1.1);
+    color: #D2A048;
+    cursor: pointer;
+}
+
+.item p {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.item p:hover {
+    transform: scale(1.1);
+    color: #D2A048;
+}
+
+.cost {
+    margin-top: -45px;
+    color: #FEF9F3;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.containerFooter {
+    background: #1E3932;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    background-image: url("img/footerStarbucksBackground.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footerWrapper img {
+    padding-left: 65px;
+}
